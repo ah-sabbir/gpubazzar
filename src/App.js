@@ -1,11 +1,13 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Cart from "./Component/Commons/Cart/Cart";
-import Header from "./Component/Commons/Header/Header";
-import About from "./Component/Pages/About/About";
-import Contact from "./Component/Pages/Contact/Contact";
-import Home from "./Component/Pages/Home/Home";
-import Profile from "./Component/Pages/Profile/Profile";
+import Header from "./Component/Shared/Header/Header";
+import About from "./Pages/About/About";
+import Cart from "./Pages/Cart/Cart";
+import Contact from "./Pages/Contact/Contact";
+import Dashboard from "./Pages/Dashboard/Dashboard";
+import Home from "./Pages/Home/Home";
+import Products from "./Pages/Products/Products";
+import Profile from "./Pages/Profile/Profile";
 
 function App() {
   return (
@@ -16,9 +18,11 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/products" element={<Products />} />
         {/*  public restricated routes start */}
         <Route path="/cart" element={<Cart />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </>
   );

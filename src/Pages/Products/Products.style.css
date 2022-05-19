@@ -1,0 +1,13 @@
+.category-list {
+  list-style: none;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.list-group-item {
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.slider-content {
+  /* background: rgba(0, 0, 0, 0.5); */
+}
+
+.slide-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.prices {
+  opacity: 0.6;
+  font-weight: normal;
+  margin-right: 0.3em;
+  font-size: 2.2em;
+}
+
+.prices .amount {
+  color: #f9a825;
+  padding-right: 0.3em;
+}

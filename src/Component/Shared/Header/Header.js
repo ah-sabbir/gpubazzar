@@ -7,9 +7,11 @@ import SearchBar from "./SearchBar";
 const Header = () => {
   return (
     <>
-      <Head />
-      <SearchBar />
-      <Navbar />
+      <section className="header">
+        <Head />
+        <SearchBar />
+        <Navbar />
+      </section>
     </>
   );
 };
