@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import logo from "../../../assets/logo.ico";
 const SearchBar = ({ CartItem }) => {
   const isAuthenticated = true;
-  console.log(logo);
   return (
     <>
       <section className="search">

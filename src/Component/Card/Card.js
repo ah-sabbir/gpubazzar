@@ -16,8 +16,12 @@ const Card = (props) => {
   return (
     <>
       <div className="card" style={{ width: "18rem" }}>
-        <img src={Image_1 } className="card-img-top" alt="..." />
+        <img src={Image_1} className="card-img-top" alt="..." />
         <div className="card-body">
+          {Discounts && (
+            <span className=" btn-danger">Discounts: {Discounts} %</span>
+          )}
+
           <h5 className="card-title">{Title}</h5>
           <p className="card-text">
             Some quick example text to build on the card title and make up the
