@@ -1,5 +1,19 @@
-.slider-content {
-  /* background: rgba(0, 0, 0, 0.5); */
+/* .carousel-inner .item.active {
+  justify-content: center;
+} */
+
+/* .carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+  justify-content: center;
+  align-items: center;
+} */
+
+.carousel-item .col-md-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slide-flex {
