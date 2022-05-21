@@ -52,7 +52,7 @@ const Products = () => {
           <div className="col-md-9">
             <div className="card-list">
               {filteredProducts.slice(0, 20).map((item, index) => {
-                return item && <Card key={index} items={item} />;
+                return item && <Card key={index} items={item} id={index} />;
               })}
             </div>
           </div>

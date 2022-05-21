@@ -9,6 +9,7 @@ import Contact from "./Pages/Contact/Contact";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login";
+import Product from "./Pages/Products/Product";
 import Products from "./Pages/Products/Products";
 import Profile from "./Pages/Profile/Profile";
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/products/:id" element={<Product />} />
         <Route path="/login" element={<Login />} />
         {/*  public restricated routes start */}
         <Route
